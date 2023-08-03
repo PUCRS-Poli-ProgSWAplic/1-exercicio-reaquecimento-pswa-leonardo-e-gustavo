@@ -1,3 +1,5 @@
+package exercicio1;
+
 public class Incremental {
     private static Incremental inc=null;
     private static int count;
@@ -19,7 +21,7 @@ public class Incremental {
         }
     }
     public String toString() {
-        return "Incremental " + numero;
+        return "exercicio1.Incremental " + numero;
     }
 }
 

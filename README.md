@@ -4,24 +4,24 @@ Exercícios de Reaquecimento
 
 Vamos fazer alguns exercícios para relembrar alguns conceitos e aproveitar para "desenferrujar" nossas habilidades de desenvolvimento.
 
-1. Escreva, compile e execute o programa abaixo. Em seguida, troque sua implementação para que a classe Incremental seja Singleton. Execute novamente e veja os resultados. Em caso de dúvida, consulte seu par e o material de apoio no moodle.
+1. Escreva, compile e execute o programa abaixo. Em seguida, troque sua implementação para que a classe exercicio1.Incremental seja Singleton. Execute novamente e veja os resultados. Em caso de dúvida, consulte seu par e o material de apoio no moodle.
 
     ```
-    class Incremental {
+    class exercicio1.Incremental {
         private static int count = 0;
         private int numero;
-        public Incremental() {
+        public exercicio1.Incremental() {
             numero = ++count;
         }
         public String toString() {
-            return "Incremental " + numero;
+            return "exercicio1.Incremental " + numero;
         }
      }
 
-    public class TesteIncremental {
+    public class exercicio1.TesteIncremental {
         public static void main(String[] args) {
             for (int i = 0; i < 10; i++) {
-              Incremental inc = new Incremental();
+              exercicio1.Incremental inc = new exercicio1.Incremental();
               System.out.println(inc);
             }
         }
